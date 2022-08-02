@@ -33,4 +33,4 @@ foo_caller1.call_foo
 # When no receiver is specified, whatever object made the call is considered the receiver
 # foo <-- the receiver here is self or 'main'
 # p self
-obiwan.foo
+obiwan.foo # receiver here is obiwan
